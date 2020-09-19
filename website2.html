@@ -1,0 +1,160 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>My Blog</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <style>
+            body{
+                color: skyBlue ;
+                margin: 0;
+                font-family: 'Montserrat', sans-serif;
+            }
+            #header{
+                background-color: #1abc9c;
+                height: 150px;
+                line-height: 150px;
+            }
+            #header a {
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+            }
+            #header a:hover {
+                color: #222;
+            }
+            #header-title{
+                display: block;
+                float: left;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #header-nav{
+                display: block;
+                float: right;
+                margin-top: 0;
+            }
+            #header-nav li{
+                display: inline;
+                padding-left: 20px;
+            }
+            .container{
+                max-width: 1000px;
+                margin:0 auto;
+            }
+            #footer{
+                background-color: #2f2f2f;
+                padding: 50px 0;
+            }
+            .column{
+                min-width: 300px;
+                display: inline-block;
+                vertical-align: top;
+            }
+            #footer h4{
+                color: white;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+            }
+            #footer p{
+                color: white;
+            }
+            a{
+                color: green;
+                text-decoration: none;
+            }
+            a:hover{
+                color: #f6a623;
+            }
+            .post, .about{
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 60px 0;
+            }
+            .about-author img {
+                width: 50px;
+                height: 50px;
+                vertical-align: middle;
+                border-radius: 50%
+            }
+            .about-author span {
+                margin-left: 16px;
+            }
+            .about-date{
+                color: #D2D2D2;
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+            }
+            h1, h2, h3, h4 {
+                color: #333;
+            }
+            p{
+                line-height: 1.5;
+            }
+            @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+            .about{
+                text-align: center;
+            }
+            .post-container: nth-child(even){
+                background-color: #f2f2f2;
+            }
+        </style>
+        <body>
+            <div id="header">
+                <div class="container">
+                <a id="header-title" href="index.html">My Blog</a>
+              <ul id="header-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:andaline160@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <div class= "post-container">
+                    <div class="post">
+                        <div class="about-author">
+                            <br>
+                            <img src="img.png.">
+                            <span>Mum</span>
+                        </div>
+                        <p class="about-date">21st of September 2020</p>
+                        <h3 class="about-title">Is my child a prodigy?</h3>
+                        <div class="about-content">
+                            <p>If someone had told me a week ago that my child would be able to make a website, I would not have believed her.</p>
+                        </div>
+            <div id="content">
+                <div class= "post-container">
+                    <div class="post">
+                        <div class="about-author">
+                            <img src="Friday.png.">
+                            <span>Me</span>
+                        </div>
+                        <p class="about-date">19th of September 2020</p>
+                        <h1 class="about-title">About Me</h1>
+                        <div class="about-content">
+                            <p>If someone would have told me a week ago that i would be able to make a <strong style="color:red;">website</strong>, I would not have believed them.</p>
+                            <p>Just a few days later i came across <a href="https://getmimo.com">Mimo</a> and started to work on a <em>real</em> blog.</p>
+                            <p>Just a few days later, I came across Mimo and started to work on a real blog.</p>
+                            <p>If you like my blog, please follow me on Instagram or Facebook and tell your friends and family about it. If you want to get in touch, please click on the contact link in the navigation bar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="container">
+                    <div class="column"><h4>My Links</h4>
+                    <p><a style="color:gold" href="https://instagram.com/benny_the_foodie">Instagram</a>
+                    <br>
+                    <a style="color:gold" href="https://facebook.com/Benedicta Onyebuchi">Facebook</a>
+                    </p>
+                    </div>
+                    <div class="column">
+                        <h4>My Story</h4>
+                        <p>Hi there! I'm an aspiring web developer.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </html>
